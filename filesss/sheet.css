@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,500;1,100;1,400&family=Tai+Heritage+Pro&display=swap');
+
+
+*{
+      margin: 0;
+      padding:0;
+      box-sizing:border-box;       
+      font-family: 'Poppins', sans-serif;
+}
+body{
+      width: 100%;
+      min-height: 100vh;  
+      background-image:linear-gradient(rgb(101, 128, 110,0.3),rgba(27, 90, 74,0.4)),url(images/bul.jpg) ;
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+#l31:active{
+      color:black;
+      border: 2px solid red;
+      font-size: 18px;
+ }
+
+ .form{
+       width: 400px;
+       min-height:400px;
+       background-color: rgba(184, 219, 220, 0.324);
+       border-radius: 5px;
+       box-shadow: 0 0 5px rgba(212, 30, 30);
+       padding: 40px 30px;
+ }
+
+.form .text{
+    color:green;
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.form .email .input-group{
+     width: 100%;
+     height:60px;
+     margin-bottom:23px;
+     
+ }
+ .form .email .input-group input{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #e7e7e7;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background:rgba(176, 207, 242, 0.249);
+    outline: none;
+    transition: .3s;
+
+ }
+.form .email .input-group input:focus , .form .email .input-group  input:valid{
+    border-color: red;
+}
+
+.form .email .input-group .btn{
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background:rgba(249, 46, 46, 0.37);
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color:white;
+    cursor: pointer;
+    transition: .3s;
+}
+.form .email .input-group .btn:hover{
+    transform: translateY(-5px);
+    background: #2571ff7f;
+}
+.login-register{
+    color:whitesmoke;
+    font-weight: 600;
+}
+.login-register a {
+    text-decoration: none;
+    color: #ab61dc;
+}
+
+
+@media (max-width: 40px) {
+    .container {
+        width: 30px;
+    }
+    .container .login-social {
+        display: block;
+    }
+    .container .login-social a {
+        display: block;
+    }
+}
+
+
+
+
+
+
